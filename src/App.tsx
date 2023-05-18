@@ -6,7 +6,7 @@ import Projects from "./Pages/Projects";
 
 export default function App() {
   return (
-    <Box className="App" sx={{ background: "teal ", boxSizing: "border-box", height: "100%" }}>
+    <Box className="App" sx={{ background: "#FCF8D4 ", boxSizing: "border-box", height: "100%" }}>
       <Header />
       <About />
       <Projects />

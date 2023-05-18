@@ -1,4 +1,4 @@
-import { Box } from "@mui/material";
+import { Box, Typography } from "@mui/material";
 import { Project, projects } from "../../data/projects";
 import ProjectCard from "../Components/ProjectCard";
 
@@ -8,8 +8,17 @@ export default function Projects() {
   ));
 
   return (
-    <Box>
-      <h1>Projects</h1>
+    <Box sx={{ background: "mustard", border: "2px solid black", margin: "0.5rem" }}>
+      <Typography
+        variant="h4"
+        sx={{
+          textAlign: "center",
+          paddingTop: "2rem",
+          fontFamily: "inconsolata, sans-serif",
+        }}
+      >
+        PROJECTS
+      </Typography>
       {projectCards}
     </Box>
   );
