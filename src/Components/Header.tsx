@@ -23,8 +23,8 @@ export default function Header() {
           <MenuIcon
             sx={{
               background: "black",
-              width: "3rem",
-              height: "3rem",
+              width: "2.5rem",
+              height: "2.5rem",
               color: "white",
               borderRadius: "50%",
             }}
@@ -42,18 +42,20 @@ export default function Header() {
         >
           JESPER LINDSTRÖM
         </Typography>
-        <Button
-          variant="contained"
-          sx={{
-            background: "#53AFCC",
-            fontSize: "20px",
-            // borderRadius: "100%",
-            width: "2.5rem",
-            height: "2.5rem",
-          }}
-        >
-          CV
-        </Button>
+        <a href="https://drive.google.com/file/d/11AiU1luxY2cal4qBJ_5dHtc-RkC0C7uh/view?usp=share_link">
+          <Button
+            variant="contained"
+            sx={{
+              background: "#53AFCC",
+              fontSize: "20px",
+              // borderRadius: "100%",
+              width: "2rem",
+              height: "2rem",
+            }}
+          >
+            CV
+          </Button>
+        </a>
       </Box>
     </Box>
   );

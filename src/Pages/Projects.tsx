@@ -8,7 +8,7 @@ export default function Projects() {
   ));
 
   return (
-    <Box sx={{ background: "mustard", border: "2px solid black", margin: "0.5rem" }}>
+    <Box sx={{ background: "#FCF8D4", border: "2px solid black", margin: "0.5rem" }}>
       <Typography
         variant="h4"
         sx={{
