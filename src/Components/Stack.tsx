@@ -1,7 +1,6 @@
 import { Box, Typography } from "@mui/material";
-import { IconRow } from "./IconRow";
 
-export default function About() {
+export default function SkillStack() {
   return (
     <Box
       sx={{
@@ -9,7 +8,7 @@ export default function About() {
         outline: "2px solid black",
         borderRadius: "10px",
         background: "#07889B",
-        margin: "3rem 0.5rem 0rem 0.5rem",
+        margin: "3rem 0.5rem 3rem 0.5rem",
         padding: "1rem",
         width: {
           xs: 300, // theme.breakpoints.up('xs')
@@ -20,12 +19,28 @@ export default function About() {
         },
       }}
     >
-      <Typography sx={{ color: "white", fontFamily: "Fira-sans, sans-serif" }}>
-        Hi! I'm Jesper and I am studying to become a front end developer at Medieinstitutet in
-        Gothenburg. This is where I will show my progression through these two years where I strive
-        to become better at web development.
+      <Typography
+        variant="h4"
+        sx={{
+          color: "white",
+          textAlign: "center",
+          padding: "1rem",
+          fontFamily: "inconsolata, sans-serif",
+        }}
+      >
+        PROJECTS
       </Typography>
-      <IconRow />
+      <Typography sx={{ color: "white", fontFamily: "Fira-sans, sans-serif" }}>
+        <ul style={{ listStyle: "none" }}>
+          <li>HTML & CSS </li>
+          <li>Javascript & Typescript</li>
+          <li>React</li>
+          <li>MUI</li>
+          <li>Node.js & Express</li>
+          <li>Socket IO</li>
+        </ul>
+      </Typography>
+      {/* <IconRow /> */}
     </Box>
   );
 }

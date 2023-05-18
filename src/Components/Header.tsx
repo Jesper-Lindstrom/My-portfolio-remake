@@ -5,9 +5,10 @@ export default function Header() {
     <Box
       sx={{
         display: "flex",
-
-        background: "#458989",
+        background: "#e37222",
         width: "100%",
+        height: "6rem",
+        borderBottom: "2px solid black",
       }}
     >
       <Box
@@ -22,10 +23,10 @@ export default function Header() {
         <Button>
           <MenuIcon
             sx={{
-              background: "black",
+              background: "#66b9bf",
               width: "2.5rem",
               height: "2.5rem",
-              color: "white",
+              color: "black",
               borderRadius: "50%",
             }}
           />
@@ -46,9 +47,9 @@ export default function Header() {
           <Button
             variant="contained"
             sx={{
-              background: "#53AFCC",
+              background: "#66b9bf",
               fontSize: "20px",
-              // borderRadius: "100%",
+              color: "black",
               width: "2rem",
               height: "2rem",
             }}
