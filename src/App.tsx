@@ -5,7 +5,7 @@ import Header from "./Components/Header";
 
 export default function App() {
   return (
-    <Box className="App" sx={{ background: "#66b9bf", boxSizing: "border-box", height: "100%" }}>
+    <Box className="App" sx={{ boxSizing: "border-box", height: "100%" }}>
       <Header />
       <Outlet />
     </Box>

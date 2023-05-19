@@ -23,7 +23,7 @@ const router = createBrowserRouter(
     </Route>
   )
 );
-
+// ändra till react themeprovider(import)
 ReactDOM.createRoot(document.getElementById("root") as HTMLElement).render(
   <React.StrictMode>
     <RouterProvider router={router} />

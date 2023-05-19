@@ -28,7 +28,7 @@ export default function SkillStack() {
           fontFamily: "inconsolata, sans-serif",
         }}
       >
-        PROJECTS
+        STACK/SKILLS
       </Typography>
       <Typography sx={{ color: "white", fontFamily: "Fira-sans, sans-serif" }}>
         <ul style={{ listStyle: "none" }}>
@@ -40,7 +40,6 @@ export default function SkillStack() {
           <li>Socket IO</li>
         </ul>
       </Typography>
-      {/* <IconRow /> */}
     </Box>
   );
 }
