@@ -11,6 +11,7 @@ export default function ProjectCard({ project }: ProjectCardProps) {
       sx={{
         background: "#458989",
         color: "white",
+        maxWidth: "40rem",
         padding: "0.4rem",
         height: "15rem",
         margin: " 3rem 1rem",
@@ -25,8 +26,12 @@ export default function ProjectCard({ project }: ProjectCardProps) {
         <Typography sx={{ fontFamily: "Montserrat, sans-serif" }}>{project.title}</Typography>
         <Typography sx={{}}>{project.type}</Typography>
       </Box>
-      <Box sx={{ border: "1px blue solid", height: "10rem", width: "15rem", margin: "0.5rem" }}>
-        {/* {project.image} */}
+      <Box sx={{ height: "10rem", width: "15rem", margin: "0.5rem" }}>
+        <img
+          src={project.image}
+          alt={project.title}
+          style={{ width: "100%", height: "100%", objectFit: "cover" }}
+        />
       </Box>
       <Typography sx={{ padding: "0.2rem", fontFamily: "Montserrat, sans-serif" }}>
         {project.description}

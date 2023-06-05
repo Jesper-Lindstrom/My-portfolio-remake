@@ -3,7 +3,7 @@ export interface Project {
   title: string;
   type: string;
   description: string;
-  // image: string;
+  image: string;
   link: string; // kanske inte?
 }
 // make image equal to link!
@@ -13,32 +13,32 @@ export const projects: Project[] = [
     title: "NF camping remake",
     type: "School project (group)",
     description: "We searched for a website and remade it using HTML and CSS.",
-    // image: ''
-    link: "http://example.com",
+    image: "/public/images/Norrfallsviken-remake.png",
+    link: "https://jesper-lindstrom.github.io/Norrfallsvikens-camping-remake/",
   },
   {
     id: "2",
     title: "The Journey",
     type: "School project (solo)",
     description: "text-based game I made using mostly vanilla javascript",
-    // image: ''
-    link: "http://example.com",
+    image: "/public/images/TheJourneyImg.png",
+    link: "https://jesper-lindstrom.github.io/Mitt-spelprojekt/",
   },
   {
     id: "3",
     title: "Frostbite Frenzy",
     type: "School project (group)",
     description: "We made a multiplayer game using typescript and p5.",
-    // image: string,
-    link: "http://example.com",
+    image: "/public/images/Frostbite-Frenzy.png",
+    link: "https://main--stellular-brioche-80ac61.netlify.app/",
   },
   {
     id: "4",
     title: "Simiflix",
     type: "School project (group)",
     description: "Group project for practicing using API toghether with react.",
-    // image: string,
-    link: "http://example.com",
+    image: "",
+    link: "https://resonant-tapioca-18b934.netlify.app/",
   },
   {
     id: "5",
@@ -46,7 +46,7 @@ export const projects: Project[] = [
     type: "Solo project",
     description:
       "My updated portfolio to showcase my projects. Using typescript and react instead of simply HTML and CSS this time.",
-    // image: string,
+    image: "/public/images/portfolio.png",
     link: "http://example.com",
   },
 ];
