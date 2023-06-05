@@ -11,22 +11,30 @@ export default function ProjectCard({ project }: ProjectCardProps) {
       sx={{
         background: "#458989",
         color: "white",
-        maxWidth: "40rem",
+        border: "5px solid #e37222",
+        outline: "2px solid black",
+        borderRadius: "10px",
         padding: "0.4rem",
-        height: "15rem",
+        height: "20rem",
         margin: " 3rem 1rem",
-        border: "1px solid black",
         display: "flex",
         justifyContent: "center",
         alignItems: "center",
         flexDirection: "column",
+        width: {
+          xs: 300, // theme.breakpoints.up('xs')
+          sm: 400, // theme.breakpoints.up('sm')
+          md: 500, // theme.breakpoints.up('md')
+          lg: 500, // theme.breakpoints.up('lg')
+          xl: 500, // theme.breakpoints.up('xl')
+        },
       }}
     >
       <Box sx={{ width: "100%", display: "flex", justifyContent: "space-between" }}>
         <Typography sx={{ fontFamily: "Montserrat, sans-serif" }}>{project.title}</Typography>
         <Typography sx={{}}>{project.type}</Typography>
       </Box>
-      <Box sx={{ height: "10rem", width: "15rem", margin: "0.5rem" }}>
+      <Box sx={{ height: "10rem", width: "15rem", margin: "1.5rem" }}>
         <img
           src={project.image}
           alt={project.title}
