@@ -37,7 +37,7 @@ export const projects: Project[] = [
     title: "Simiflix",
     type: "School project (group)",
     description: "Group project for practicing using API toghether with react.",
-    image: "",
+    image: "images/simiflix.png",
     link: "https://resonant-tapioca-18b934.netlify.app/",
   },
   {

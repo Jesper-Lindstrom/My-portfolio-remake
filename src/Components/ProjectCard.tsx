@@ -35,11 +35,13 @@ export default function ProjectCard({ project }: ProjectCardProps) {
         <Typography sx={{}}>{project.type}</Typography>
       </Box>
       <Box sx={{ height: "10rem", width: "15rem", margin: "1.5rem" }}>
-        <img
-          src={project.image}
-          alt={project.title}
-          style={{ width: "100%", height: "100%", objectFit: "cover" }}
-        />
+        <a href={project.link}>
+          <img
+            src={project.image}
+            alt={project.title}
+            style={{ width: "100%", height: "100%", objectFit: "cover" }}
+          />
+        </a>
       </Box>
       <Typography sx={{ padding: "0.2rem", fontFamily: "Montserrat, sans-serif" }}>
         {project.description}
