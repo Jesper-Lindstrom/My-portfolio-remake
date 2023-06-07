@@ -13,7 +13,7 @@ export const projects: Project[] = [
     title: "NF camping remake",
     type: "School project (group)",
     description: "We searched for a website and remade it using HTML and CSS.",
-    image: "src/images/norrfallsviken.png",
+    image: "src/images/norrfallsviken-remake.png",
     link: "https://jesper-lindstrom.github.io/Norrfallsvikens-camping-remake/",
   },
   {
@@ -21,7 +21,7 @@ export const projects: Project[] = [
     title: "The Journey",
     type: "School project (solo)",
     description: "text-based game I made using mostly vanilla javascript",
-    image: "src/images/the-journey.png",
+    image: "src/images/thejourneyimg.png",
     link: "https://jesper-lindstrom.github.io/Mitt-spelprojekt/",
   },
   {
