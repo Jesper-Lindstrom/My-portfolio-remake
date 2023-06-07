@@ -29,16 +29,7 @@ export default function Projects() {
       >
         PROJECTS
       </Typography>
-      <Box
-        sx={{
-          display: "flex",
-          flexWrap: "wrap",
-          justifyContent: "center",
-          // alignItems: "left",
-        }}
-      >
-        {projectCards}
-      </Box>
+      <Box sx={{ display: "flex", justifyContent: "center", flexWrap: "wrap" }}>{projectCards}</Box>
     </Box>
   );
 }

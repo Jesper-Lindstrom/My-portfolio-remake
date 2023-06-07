@@ -13,7 +13,7 @@ export const projects: Project[] = [
     title: "NF camping remake",
     type: "School project (group)",
     description: "We searched for a website and remade it using HTML and CSS.",
-    image: "public/images/norrfallsviken-remake.png",
+    image: "images/norrfallsviken-remake.png",
     link: "https://jesper-lindstrom.github.io/Norrfallsvikens-camping-remake/",
   },
   {
@@ -21,7 +21,7 @@ export const projects: Project[] = [
     title: "The Journey",
     type: "School project (solo)",
     description: "text-based game I made using mostly vanilla javascript",
-    image: "public/images/thejourneyimg.png",
+    image: "images/thejourneyimg.png",
     link: "https://jesper-lindstrom.github.io/Mitt-spelprojekt/",
   },
   {
@@ -29,7 +29,7 @@ export const projects: Project[] = [
     title: "Frostbite Frenzy",
     type: "School project (group)",
     description: "We made a multiplayer game using typescript and p5.",
-    image: "public/images/frostbite-frenzy.png",
+    image: "images/frostbite-frenzy.png",
     link: "https://main--stellular-brioche-80ac61.netlify.app/",
   },
   {

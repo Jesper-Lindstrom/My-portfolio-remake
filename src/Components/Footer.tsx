@@ -11,7 +11,7 @@ export default function Footer() {
         alignItems: "center",
 
         width: "100%",
-        minHeight: "10rem", // Adjust the value based on your header height
+        minHeight: "calc(100vh - 64rem)", // Adjust the value based on your header height
       }}
     >
       <Box
