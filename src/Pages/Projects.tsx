@@ -1,5 +1,5 @@
 import { Box, Typography } from "@mui/material";
-import { Project, projects } from "../../data/projects";
+import { Project, projects } from "../../data";
 import ProjectCard from "../Components/ProjectCard";
 
 export default function Projects() {

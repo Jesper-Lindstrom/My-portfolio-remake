@@ -1,5 +1,5 @@
 import { Box, Typography } from "@mui/material";
-import { Project } from "../../data/projects";
+import { Project } from "../../data";
 
 interface ProjectCardProps {
   project: Project;
