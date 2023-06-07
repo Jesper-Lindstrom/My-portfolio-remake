@@ -1,7 +1,9 @@
 {
-  "name": "my-portfolio-v2",
+  "homepage": "https://Jesper-Lindstrom.github.io",
+  "name": "portfolio",
   "private": false,
   "version": "0.0.0",
+  "type": "module",
   "scripts": {
     "dev": "vite",
     "predeploy": "npm run build",
