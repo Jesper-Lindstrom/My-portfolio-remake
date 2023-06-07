@@ -5,7 +5,7 @@
   "scripts": {
     "dev": "vite",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d dist",
+    "deploy": "gh-pages -d dist --repo https://github.com/Jesper-Lindstrom/portfolio",
     "build": "vite build"
   },
   "dependencies": {
