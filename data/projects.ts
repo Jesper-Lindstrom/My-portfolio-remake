@@ -46,7 +46,7 @@ export const projects: Project[] = [
     type: "Solo project",
     description:
       "My updated portfolio to showcase my projects. Using typescript and react instead of simply HTML and CSS this time.",
-    image: "public/images/portfolio.png",
+    image: "images/portfolio.png",
     link: "https://jesper-lindstrom.github.io/projects",
   },
 ];
