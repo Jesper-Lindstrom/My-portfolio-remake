@@ -4,16 +4,16 @@ export interface Project {
   type: string;
   description: string;
   image: string;
-  link: string;
+  link: string; // kanske inte?
 }
+// make image equal to link!
 export const projects: Project[] = [
   {
     id: "1",
     title: "NF camping remake",
     type: "School project (group)",
     description: "We searched for a website and remade it using HTML and CSS.",
-    image:
-      "https://github.com/Jesper-Lindstrom/portfolio/blob/master/public/images/Norrfallsviken-remake.png?raw=true",
+    image: "images/norrfallsviken-remake.png",
     link: "https://jesper-lindstrom.github.io/Norrfallsvikens-camping-remake/",
   },
   {
@@ -21,8 +21,7 @@ export const projects: Project[] = [
     title: "The Journey",
     type: "School project (solo)",
     description: "text-based game I made using mostly vanilla javascript",
-    image:
-      "https://github.com/Jesper-Lindstrom/portfolio/blob/master/public/images/TheJourneyImg.png?raw=true",
+    image: "images/thejourneyimg.png",
     link: "https://jesper-lindstrom.github.io/Mitt-spelprojekt/",
   },
   {
@@ -30,8 +29,7 @@ export const projects: Project[] = [
     title: "Frostbite Frenzy",
     type: "School project (group)",
     description: "We made a multiplayer game using typescript and p5.",
-    image:
-      "https://github.com/Jesper-Lindstrom/portfolio/blob/master/public/images/Frostbite-Frenzy.png?raw=true",
+    image: "images/frostbite-frenzy.png",
     link: "https://main--stellular-brioche-80ac61.netlify.app/",
   },
   {
@@ -49,6 +47,6 @@ export const projects: Project[] = [
     description:
       "My updated portfolio to showcase my projects. Using typescript and react instead of simply HTML and CSS this time.",
     image: "images/portfolio.png",
-    link: "https://github.com/Jesper-Lindstrom/portfolio/blob/master/public/images/portfolio.png?raw=true",
+    link: "https://jesper-lindstrom.github.io/projects",
   },
 ];
