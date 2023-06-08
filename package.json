@@ -3,9 +3,8 @@
   "version": "0.0.0",
   "scripts": {
     "dev": "vite",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d dist --repo https://github.com/Jesper-Lindstrom/portfolio",
-    "build": "vite build"
+    "build": "vite build",
+    "deploy": "vite build && gh-pages -d dist"
   },
   "dependencies": {
     "@emotion/react": "^11.11.0",
@@ -25,5 +24,19 @@
     "gh-pages": "^5.0.0",
     "typescript": "^4.9.3",
     "vite": "^4.2.0"
-  }
+  },
+  "homepage": "https://your-username.github.io/your-repo-name",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/your-username/your-repo-name.git"
+  },
+  "bugs": {
+    "url": "https://github.com/your-username/your-repo-name/issues"
+  },
+  "keywords": [
+    "vite",
+    "react",
+    "github",
+    "pages"
+  ]
 }
