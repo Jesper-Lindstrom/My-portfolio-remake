@@ -13,7 +13,7 @@ export const projects: Project[] = [
     title: "NF camping remake",
     type: "School project (group)",
     description: "We searched for a website and remade it using HTML and CSS.",
-    image: "/public/images/norrfallsviken-remake.png",
+    image: "/assets/images/norrfallsviken-remake.png",
     link: "https://jesper-lindstrom.github.io/Norrfallsvikens-camping-remake/",
   },
   {
@@ -21,7 +21,7 @@ export const projects: Project[] = [
     title: "The Journey",
     type: "School project (solo)",
     description: "text-based game I made using mostly vanilla javascript",
-    image: "/public/images/thejourneyimg.png",
+    image: "/assets/images/thejourneyimg.png",
     link: "https://jesper-lindstrom.github.io/Mitt-spelprojekt/",
   },
   {
@@ -29,7 +29,7 @@ export const projects: Project[] = [
     title: "Frostbite Frenzy",
     type: "School project (group)",
     description: "We made a multiplayer game using typescript and p5.",
-    image: "/public/images/frostbite-frenzy.png",
+    image: "/assets/images/frostbite-frenzy.png",
     link: "https://main--stellular-brioche-80ac61.netlify.app/",
   },
   {
@@ -37,7 +37,7 @@ export const projects: Project[] = [
     title: "Simiflix",
     type: "School project (group)",
     description: "Group project for practicing using API toghether with react.",
-    image: "/public/images/simiflix.png",
+    image: "/assets/images/simiflix.png",
     link: "https://resonant-tapioca-18b934.netlify.app/",
   },
   {
@@ -46,7 +46,7 @@ export const projects: Project[] = [
     type: "Solo project",
     description:
       "My updated portfolio to showcase my projects. Using typescript and react instead of simply HTML and CSS this time.",
-    image: "/public/images/portfolio.png",
+    image: "/assets/images/portfolio.png",
     link: "https://jesper-lindstrom.github.io/projects",
   },
 ];
