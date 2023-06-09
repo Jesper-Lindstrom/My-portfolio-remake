@@ -12,7 +12,6 @@ export default function Startpage() {
         flexDirection: "column",
         alignItems: "center",
         minHeight: "calc(100vh - 16.1rem)",
-        // flexGrow: 1,
       }}
     >
       <About />
