@@ -9,9 +9,9 @@ export default function Footer() {
         background: "black",
         justifyContent: "center",
         alignItems: "center",
-
+        marginTop: "auto",
         width: "100%",
-        minHeight: "10rem",
+        height: "10rem",
       }}
     >
       <Box
