@@ -15,7 +15,7 @@ export default function ProjectCard({ project }: ProjectCardProps) {
         outline: "2px solid black",
         borderRadius: "10px",
         padding: "0.4rem",
-        height: "20rem",
+        height: "25rem",
         margin: " 3rem 1rem",
         display: "flex",
         justifyContent: "center",
@@ -30,8 +30,20 @@ export default function ProjectCard({ project }: ProjectCardProps) {
         },
       }}
     >
-      <Box sx={{ width: "100%", display: "flex", justifyContent: "space-between" }}>
-        <Typography sx={{ fontFamily: "Montserrat, sans-serif" }}>{project.title}</Typography>
+      <Box
+        sx={{
+          width: "100%",
+          display: "flex",
+          flexDirection: "column",
+
+          alignItems: "center",
+        }}
+      >
+        <Typography
+          sx={{ fontFamily: "Montserrat, sans-serif", fontSize: "25px", padding: "0.2rem" }}
+        >
+          {project.title}
+        </Typography>
         <Typography sx={{}}>{project.type}</Typography>
       </Box>
       <Box sx={{ height: "10rem", width: "15rem", margin: "1.5rem" }}>
